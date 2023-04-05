@@ -218,3 +218,9 @@ C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.csproj.Core
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.csproj.CopyComplete
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.dll
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.pdb
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\CKFinder.dll
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\PagedList.dll
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\PagedList.Mvc.dll
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\CKFinder.pdb
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\PagedList.xml
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\PagedList.Mvc.xml
