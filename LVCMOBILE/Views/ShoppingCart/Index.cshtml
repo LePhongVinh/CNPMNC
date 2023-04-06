@@ -1,4 +1,4 @@
-﻿@model IEnumerable<LVCMOBILE.Models.ShoppingCartItem>
+﻿
 @using LVCMOBILE.Models.Commons
 @{
     ViewBag.Title = "Giỏ hàng";
@@ -25,53 +25,14 @@
             <!-- Main Content -->
 
             <div class="row">
+                <div class="col-md-12" id="load_data">
+                    @Html.Action("Partial_Item_Cart", "ShoppingCart")
+                </div>
                 <div class="col-md-12">
-                    <table class="table">
-                        <tr class="text-center">
-                            <th>STT</th>
-                            <th>Ảnh sản phẩm</th>
-                            <th>Tên sản phẩm</th>
-                            <th>Danh mục</th>
-                            <th>Giá</th>
-                            <th>Số lượng</th>
-                            <th>Thành tiền</th>
-                        </tr>
-                        @if (Model != null && Model.Any())
-                        {
-                            var i = 0;
-                            var tongtien = decimal.Zero;
-                            foreach (var item in Model)
-                            {
-                                tongtien += item.TotalPrice;
-                                <tr class="text-center" id="trow_@item.ProductId">
-                                    <td>@(i+1)</td>
-                                    <td><img src="@item.ProductImg" width="60" /></td>
-                                    <td>
-                                        <a href="/chi-tiet/@item.Alias-p@(item.ProductId)">
-                                            @item.ProductName
-                                        </a>
-                                    </td>
-                                    <td>@item.CategoryName</td>
-                                    <td>@Common.FormatNumber(item.Price,0)</td>
-                                    <td>@item.Quantity</td>
-                                    <th>@Common.FormatNumber(item.TotalPrice, 2)</th>
-                                    <td><a href="#" data-id="@item.ProductId" class="btn btn-sm btn-danger btnDelete">Xoá</a></td>
-                                </tr>
-                                i++;
-                            }
-                            <tr>
-                                <th colspan="6" class="text-right">Tổng : </th>
-                                <th class="text-center">@Common.FormatNumber(tongtien,0)</th>
-                                <th></th>
-                            </tr>
-                        }
-                        else
-                        {
-                            <tr>
-                                <th colspan="7"> Không có sản phẩm nào trong giỏ hàng !!!</th>
-                            </tr>
-                        }
-                    </table>
+                    <div class="text-right">
+                        <a href="#" class="btn btn-danger btnDeleteAll">Xoá</a>
+                        <a href="/thanh-toan" class="btn btn-success">Thanh toán</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -79,4 +40,5 @@
 </div>
 @section scripts{
     <script src="~/Content/assets/js/categories_custom.js"></script>
+
 }
