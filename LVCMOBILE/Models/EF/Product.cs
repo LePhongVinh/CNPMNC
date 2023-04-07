@@ -34,6 +34,7 @@ namespace LVCMOBILE.Models.EF
         public decimal Price { get; set; }
         public decimal? PriceSale { get; set; }
         public int Quanlity { get; set; }
+        public int ViewCount { get; set; }
         public bool IsHome { get; set; }
         public bool IsSale { get; set; }
         public bool IsFeature { get; set; }

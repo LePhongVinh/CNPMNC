@@ -26,6 +26,7 @@ namespace LVCMOBILE.Models
         {
         }
 
+        public DbSet<ThongKe> ThongKes { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Adv> Advs { get; set; }
         public DbSet<Contact> Contacts { get; set; }
@@ -38,7 +39,6 @@ namespace LVCMOBILE.Models
         public DbSet<Subscribe> Subscribes { get; set; }
         public DbSet<SystemSetting> SystemSettings { get; set; }
         public DbSet<OrderDetail> OrderDetails { get; set; }
-
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
