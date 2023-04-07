@@ -8,7 +8,7 @@ using System.Web;
 namespace LVCMOBILE.Models.EF
 {
     [Table("tb_OrderDetail")]
-    public class OrderDetail : CommonAbstract
+    public class OrderDetail
     {
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]

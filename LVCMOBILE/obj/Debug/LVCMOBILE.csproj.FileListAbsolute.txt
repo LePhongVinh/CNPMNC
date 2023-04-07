@@ -224,3 +224,10 @@ C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\PagedList.Mvc.dll
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\CKFinder.pdb
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\PagedList.xml
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\PagedList.Mvc.xml
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.UpdatePayment.resources
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.UpdateTotalAmount.resources
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.UpdateDatatime.resources
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.UpdatePayment1.resources
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.CreateTBThongKe.resources
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\Dapper.dll
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\Dapper.xml
