@@ -10,6 +10,7 @@ using System.Web.Mvc;
 
 namespace LVCMOBILE.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "Admin,Employee")]
     public class ProductsController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();

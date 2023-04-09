@@ -231,3 +231,5 @@ C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.CreateTBThongKe.resources
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\Dapper.dll
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\Dapper.xml
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.UpdateEmail.resources
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.UpdateLoi.resources
