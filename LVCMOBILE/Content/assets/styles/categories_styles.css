@@ -113,10 +113,9 @@ p a:hover::after
 {
 	opacity: 0.2;
 }
-::selection
-{
+::selection {
 	background: #fde0db;
-	color: #FF6347;
+	color: #539165;
 }
 p::selection
 {
@@ -605,8 +604,7 @@ section
 	background: #eceff6;
 	border-radius: 50%;
 }
-.checkout_items
-{
+.checkout_items {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -621,7 +619,7 @@ section
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background: #fe4c50;
+	background: #539165;
 	font-size: 12px;
 	color: #FFFFFF;
 }
@@ -815,8 +813,7 @@ section
 {
 	color: #fe4c50;
 }
-.red_button
-{
+.red_button {
 	display: -webkit-inline-box;
 	display: -moz-inline-box;
 	display: -ms-inline-flexbox;
@@ -827,7 +824,7 @@ section
 	align-items: center;
 	width: auto;
 	height: 40px;
-	background: #fe4c50;
+	background: #539165;
 	border-radius: 3px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -873,22 +870,21 @@ section
 {
 	display: inline-block;
 }
-.section_title::after
-{
-	display: block;
-	position: absolute;
-	top: calc(100% + 13px);
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
-	width: 60px;
-	height: 5px;
-	background: #fe4c50;
-	content: '';
-}
+	.section_title::after {
+		display: block;
+		position: absolute;
+		top: calc(100% + 13px);
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+		width: 60px;
+		height: 5px;
+		background: #539165;
+		content: '';
+	}
 
 /*********************************
 4.1 Product Sorting
@@ -1366,10 +1362,9 @@ section
 {
 	font-size: 14px;
 }
-.product_price
-{
+.product_price {
 	font-size: 16px;
-	color: #fe4c50;
+	color: #539165;
 	font-weight: 600;
 }
 .product_price span
@@ -1417,21 +1412,18 @@ section
 	bottom: -6px;
 	border: 6px solid;
 }
-.product_bubble_red::after
-{
-	border-color: transparent transparent transparent #fe4c50;
+.product_bubble_red::after {
+	border-color: transparent transparent transparent #539165;
 }
 .product_bubble_left::after
 {
 	border-color: #51a042 #51a042 transparent transparent;
 }
-.product_bubble_red
-{
-	background: #fe4c50;
+.product_bubble_red {
+	background: #539165;
 }
-.product_bubble_green
-{
-	background: #51a042;
+.product_bubble_green {
+	background: #539165;
 }
 .product_bubble_left
 {
@@ -1632,12 +1624,11 @@ section
 	font-weight: 400;
 	color: #b9b4c7 !important;
 }
-.newsletter_submit_btn
-{
+.newsletter_submit_btn {
 	width: 160px;
 	height: 46px;
 	border: none;
-	background: #fe4c50;
+	background: #539165;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;

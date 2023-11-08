@@ -54,8 +54,8 @@ namespace LVCMOBILE.Areas.Admin.Controllers
         // GET: Admin/Account
         public ActionResult Index()
         {
-            var ítems = db.Users.ToList();
-            return View(ítems);
+            var items = db.Users.ToList();
+            return View(items);
         }
         //
         // GET: /Account/Login

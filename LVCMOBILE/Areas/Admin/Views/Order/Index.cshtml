@@ -54,8 +54,8 @@
                                 <td>@item.CustomerName</td>
                                 <td>@item.Phone</td>
                                 <td>@LVCMOBILE.Models.Commons.Common.FormatNumber(item.TotalAmount, 0)</td>
-                                <td>@(item.TypePayment==1?"Cho thanh toan":"Da thanh toan")</td>
-                                @*<td>
+                                <td>@(item.TypePayment==1?"COD":"Chuyển khoản")</td>
+                                <td>
                                     @if (item.Status == 1)
                                     {
                                         <span>Chưa thanh toán</span>
@@ -72,7 +72,7 @@
                                     {
                                         <span>Hủy</span>
                                     }
-                                </td>*@
+                                </td>
                                 <td>@item.CreatedDate.ToString("dd/MM/yyyy")</td>
                                 <td>
                                     <a href="/admin/order/view/@item.Id" class="btn btn-sm btn-success">Xem</a>

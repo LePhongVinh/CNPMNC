@@ -117,10 +117,9 @@ p a:hover::after
 {
 	opacity: 0.2;
 }
-::selection
-{
+::selection {
 	background: #fde0db;
-	color: #FF6347;
+	color: #539165;
 }
 p::selection
 {
@@ -608,8 +607,7 @@ section
 	background: #eceff6;
 	border-radius: 50%;
 }
-.checkout_items
-{
+.checkout_items {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -624,7 +622,7 @@ section
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background: #fe4c50;
+	background: #539165;
 	font-size: 12px;
 	color: #FFFFFF;
 }
@@ -810,10 +808,9 @@ section
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.logo_container a span
-{
-	color: #fe4c50;
-}
+	.logo_container a span {
+		color: #539165;
+	}
 
 /*********************************
 3.7 Main Slider
@@ -843,8 +840,7 @@ section
 	font-weight: 400;
 	line-height: 1;
 }
-.red_button
-{
+.red_button {
 	display: -webkit-inline-box;
 	display: -moz-inline-box;
 	display: -ms-inline-flexbox;
@@ -855,7 +851,7 @@ section
 	align-items: center;
 	width: auto;
 	height: 40px;
-	background: #fe4c50;
+	background: #539165;
 	border-radius: 3px;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -986,15 +982,13 @@ section
 {
 
 }
-.grid_sorting_button.active:hover
-{
-	background: #FE7C7F !important;
-}
-.grid_sorting_button.active
-{
-	color: #FFFFFF;
-	background: #fe4c50;
-}
+	.grid_sorting_button.active:hover {
+		background: #539165 !important;
+	}
+	.grid_sorting_button.active {
+		color: #FFFFFF;
+		background: #539165;
+	}
 
 /*********************************
 5.2 New Arrivals Products Grid
@@ -1071,10 +1065,9 @@ section
 {
 	font-size: 14px;
 }
-.product_price
-{
+.product_price {
 	font-size: 16px;
-	color: #fe4c50;
+	color: #539165;
 	font-weight: 600;
 }
 .product_price span
@@ -1122,17 +1115,15 @@ section
 	bottom: -6px;
 	border: 6px solid;
 }
-.product_bubble_red::after
-{
-	border-color: transparent transparent transparent #fe4c50;
+.product_bubble_red::after {
+	border-color: transparent transparent transparent #539165;
 }
 .product_bubble_left::after
 {
 	border-color: #51a042 #51a042 transparent transparent;
 }
-.product_bubble_red
-{
-	background: #fe4c50;
+.product_bubble_red {
+	background: #539165;
 }
 .product_bubble_green
 {
@@ -1239,22 +1230,21 @@ section
 {
 	display: inline-block;
 }
-.section_title::after
-{
-	display: block;
-	position: absolute;
-	top: calc(100% + 13px);
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
-	width: 60px;
-	height: 5px;
-	background: #fe4c50;
-	content: '';
-}
+	.section_title::after {
+		display: block;
+		position: absolute;
+		top: calc(100% + 13px);
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		transform: translateX(-50%);
+		width: 60px;
+		height: 5px;
+		background: #539165;
+		content: '';
+	}
 .timer
 {
 	margin-top: 66px;
@@ -1272,11 +1262,10 @@ section
 {
 	margin-right: 0px;
 }
-.timer_num
-{
+.timer_num {
 	font-size: 48px;
 	font-weight: 600;
-	color: #fe4c50;
+	color: #539165;
 	margin-top: 10px;
 }
 .timer_unit
@@ -1510,12 +1499,11 @@ section
 	margin-top: 3px;
 	letter-spacing: 1px;
 }
-.blog_more
-{
+.blog_more {
 	font-size: 14px;
 	line-height: 16px;
 	font-weight: 500;
-	color: #fe4c50;
+	color: #539165;
 	border-bottom: solid 1px #fe4c50;
 	margin-top: 12px;
 }
@@ -1600,12 +1588,11 @@ section
 	font-weight: 400;
 	color: #b9b4c7 !important;
 }
-.newsletter_submit_btn
-{
+.newsletter_submit_btn {
 	width: 160px;
 	height: 46px;
 	border: none;
-	background: #fe4c50;
+	background: #539165;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 500;

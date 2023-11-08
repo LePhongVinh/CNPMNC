@@ -64,6 +64,13 @@ else
             }
         }
         $(document).ready(function () {
+            $('body').on('change', '#drTypePayment', function () {
+                var type = $(this).val();
+                $('#load_form_payment').hide();
+                if (type == "2") {
+                    $('#load_form_payment').show();
+                }
+            });
             $('#myForm').validate({
                 rules: {
                     'CustomerName': {
@@ -85,7 +92,7 @@ else
                     'Phone': 'Bạn không để trống mục này',
                     'Address': 'Bạn không để trống mục này',
                     'Email': 'Email chưa hợp lệ'
-                    }
+                }
             });
         });
     </script>
