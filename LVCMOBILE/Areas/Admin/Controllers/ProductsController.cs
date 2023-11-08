@@ -108,7 +108,7 @@ namespace LVCMOBILE.Areas.Admin.Controllers
         {
             var item = db.Products.Find(id);
             if (item != null)
-            {
+            {               
                 db.Products.Remove(item);
                 db.SaveChanges();
                 return Json(new { success = true });
@@ -127,7 +127,6 @@ namespace LVCMOBILE.Areas.Admin.Controllers
                 db.SaveChanges();
                 return Json(new { success = true, isActive = item.IsActive });
             }
-
             return Json(new { success = false });
         }
         [HttpPost]

@@ -21,6 +21,13 @@ namespace LVCMOBILE
             );
 
             routes.MapRoute(
+            name: "BaiViet",
+            url: "post/{alias}",
+            defaults: new { controller = "Article", action = "Index", alias = UrlParameter.Optional },
+            namespaces: new[] { "LVCMOBILE.Controllers" }
+        );
+
+            routes.MapRoute(
                name: "DetailProduct",
                url: "chi-tiet/{alias}-p{id}",
                defaults: new { controller = "Products", action = "Detail", alias = UrlParameter.Optional },
@@ -46,6 +53,13 @@ namespace LVCMOBILE
                url: "thanh-toan",
                defaults: new { controller = "ShoppingCart", action = "CheckOut", alias = UrlParameter.Optional },
                namespaces: new[] { "LVCMOBILE.Controllers" }
+            );
+
+            routes.MapRoute(
+               name: "vnpay_return",
+               url: "vnpay_return",
+               defaults: new { controller = "ShoppingCart", action = "VnpayReturn", alias = UrlParameter.Optional },
+               namespaces: new[] { "LVCMOBILE.Controllers" }
            );
 
             routes.MapRoute(
@@ -53,7 +67,21 @@ namespace LVCMOBILE
                url: "gio-hang",
                defaults: new { controller = "ShoppingCart", action = "Index", alias = UrlParameter.Optional },
                namespaces: new[] { "LVCMOBILE.Controllers" }
-           );
+            );
+
+            routes.MapRoute(
+            name: "DetailNew",
+            url: "{alias}-n{id}",
+            defaults: new { controller = "News", action = "Detail", id = UrlParameter.Optional },
+            namespaces: new[] { "LVCMOBILE.Controllers" }
+            );
+
+            routes.MapRoute(
+             name: "NewsList",
+             url: "tin-tuc",
+             defaults: new { controller = "News", action = "Index", alias = UrlParameter.Optional },
+             namespaces: new[] { "LVCMOBILE.Controllers" }
+            );
 
             routes.MapRoute(
                 name: "Default",

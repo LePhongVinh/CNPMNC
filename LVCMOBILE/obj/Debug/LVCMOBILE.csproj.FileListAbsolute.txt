@@ -234,3 +234,6 @@ C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\bin\Dapper.xml
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.UpdateEmail.resources
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.UpdateLoi.resources
 C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.UpdateSubscribe.resources
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.UpdateOriginalPrice.resources
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.EditCategory.resources
+C:\Users\Admin\Documents\GitHub\CNPMNC\LVCMOBILE\obj\Debug\LVCMOBILE.Migrations.AddStatus.resources

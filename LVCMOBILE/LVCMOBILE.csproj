@@ -193,7 +193,9 @@
     <Compile Include="Areas\Admin\Controllers\ProductsController.cs" />
     <Compile Include="Areas\Admin\Controllers\RoleController.cs" />
     <Compile Include="Areas\Admin\Controllers\SettingSystemController.cs" />
+    <Compile Include="Areas\Admin\Controllers\StatisticalController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ArticleController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -240,6 +242,18 @@
     <Compile Include="Migrations\202304100414435_UpdateSubscribe.designer.cs">
       <DependentUpon>202304100414435_UpdateSubscribe.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304121254099_UpdateOriginalPrice.cs" />
+    <Compile Include="Migrations\202304121254099_UpdateOriginalPrice.designer.cs">
+      <DependentUpon>202304121254099_UpdateOriginalPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304131316302_EditCategory.cs" />
+    <Compile Include="Migrations\202304131316302_EditCategory.designer.cs">
+      <DependentUpon>202304131316302_EditCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305101257105_AddStatus.cs" />
+    <Compile Include="Migrations\202305101257105_AddStatus.designer.cs">
+      <DependentUpon>202305101257105_AddStatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\CommonAbstract.cs" />
@@ -264,6 +278,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\OrderViewModel.cs" />
+    <Compile Include="Models\Payments\VnPayLibrary.cs" />
     <Compile Include="Models\SettingSystemViewModel.cs" />
     <Compile Include="Models\ShoppingCart.cs" />
     <Compile Include="Models\ThongKeViewModel.cs" />
@@ -336,6 +351,7 @@
     <Content Include="Content\assets\images\desc_1.jpg" />
     <Content Include="Content\assets\images\desc_2.jpg" />
     <Content Include="Content\assets\images\desc_3.jpg" />
+    <Content Include="Content\assets\images\lienlac.PNG" />
     <Content Include="Content\assets\images\map_marker.png" />
     <Content Include="Content\assets\images\product_1.png" />
     <Content Include="Content\assets\images\product_10.png" />
@@ -3466,6 +3482,7 @@
     <Content Include="Content\assets\dist\js\adminlte.min.js.map" />
     <Content Include="Areas\Admin\Views\SettingSystem\Index.cshtml" />
     <Content Include="Areas\Admin\Views\SettingSystem\Partial_Setting.cshtml" />
+    <Content Include="Areas\Admin\Views\Statistical\Index.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -3550,6 +3567,10 @@
     <Content Include="Views\Home\Refresh.cshtml" />
     <Content Include="Views\News\Partial_News_Home.cshtml" />
     <Content Include="Views\Home\Partial_Subcrice.cshtml" />
+    <Content Include="Views\News\Index.cshtml" />
+    <Content Include="Views\News\Detail.cshtml" />
+    <Content Include="Views\Article\Index.cshtml" />
+    <Content Include="Views\ShoppingCart\VnpayReturn.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -3588,6 +3609,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202304100414435_UpdateSubscribe.resx">
       <DependentUpon>202304100414435_UpdateSubscribe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304121254099_UpdateOriginalPrice.resx">
+      <DependentUpon>202304121254099_UpdateOriginalPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304131316302_EditCategory.resx">
+      <DependentUpon>202304131316302_EditCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305101257105_AddStatus.resx">
+      <DependentUpon>202305101257105_AddStatus.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

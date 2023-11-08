@@ -13,9 +13,7 @@
     <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/OwlCarousel2-2.2.1/animate.css">
     <link rel="stylesheet" type="text/css" href="~/Content/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
-    @*@RenderSection("css", required: false)*@
     <link rel="stylesheet" type="text/css" href="~/Content/assets/styles/responsive.css">
-    @*@Styles.Render("~/Content/css")*@
     @Scripts.Render("~/bundles/modernizr")
     <script src="~/Content/assets/js/jquery-3.2.1.min.js"></script>
     @Scripts.Render("~/bundles/jqueryval")
@@ -57,8 +55,7 @@
                                                 Xin chào : @User.Identity.Name
                                                 <i class="fa fa-angle-down"></i>
                                             </a>
-                                            <ul class="account_selection">
-                                                @*<li><a href="/account/resetpassword"><i class="fa fa-sign-in" aria-hidden="true"></i>Đổi mật khẩu</a></li>*@
+                                            <ul class="account_selection">                                            
                                                 <li><a href="javascript:document.getElementById('logOffForm').submit()"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng xuất</a></li>
                                             </ul>
                                         }
@@ -69,8 +66,10 @@
                                     <div style="display:none">
                                         @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { @id = "logOffForm" }))
                                         {
-                                            @Html.AntiForgeryToken()}
-                                    </div>}
+                                            @Html.AntiForgeryToken()
+                                        }
+                                    </div>
+                                }
                             </div>
                         </div>
                     </div>
@@ -84,13 +83,12 @@
                     <div class="row">
                         <div class="col-lg-12 text-right">
                             <div class="logo_container">
-                                <a href="/">lvc<span>mobile</span></a>
+                                <a href="/">lvc<span style="color: #539165;">mobile</span></a>
                             </div>
                             <nav class="navbar">
                                 @Html.Action("MenuTop", "Menus")
                                 <ul class="navbar_user">
                                     <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                    @*<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>*@
                                     <li class="checkout">
                                         <a href="/gio-hang">
                                             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
@@ -106,7 +104,6 @@
                     </div>
                 </div>
             </div>
-
         </header>
 
         <div class="fs_menu_overlay"></div>
@@ -124,18 +121,10 @@
                             <li><a href="/account/register"><i class="fa fa-user-plus" aria-hidden="true"></i>Đăng ký</a></li>
                         </ul>
                     </li>
-                   @* <li class="menu_item"><a href="#">home</a></li>
-                    <li class="menu_item"><a href="#">shop</a></li>
-                    <li class="menu_item"><a href="#">promotion</a></li>
-                    <li class="menu_item"><a href="#">pages</a></li>
-                    <li class="menu_item"><a href="#">blog</a></li>
-                    <li class="menu_item"><a href="#">contact</a></li>*@
                 </ul>
             </div>
         </div>
         @RenderBody()
-
-
 
         <!-- Newsletter -->
 
@@ -176,25 +165,21 @@
                         <li>
                             <span><i class="fa fa-phone"></i></span>
                             <p>
-                                <a href="#">+84 123 456 789</a>
+                                <a href="#">+84 966 486 253</a>
                                 <br />
-                                <a href="#">+84 987 654 321</a>
+                                <a href="#">+84 982 989 252</a>
                             </p>
                         </li>
                         <li>
                             <span><i class="fa fa-envelope"></i></span>
-                            <p><a href="#">lvcmobile@gmail.com</a></p>
+                            <p><a href="#">vinhlee2k2@gmail.com</a></p>
                         </li>
                     </ul>
                 </div>
             </div>         
         </div>                          
     </footer>
-
     </div>
-
-
-    @*@Scripts.Render("~/bundles/jquery")*@
 
     <script src="~/Content/assets/styles/bootstrap4/popper.js"></script>
     <script src="~/Content/assets/styles/bootstrap4/bootstrap.min.js"></script>
@@ -206,7 +191,6 @@
     <script src="~/Scripts/jquery.validate.min.js"></script>
     <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
     <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>>
-    @*@Scripts.Render("~/bundles/bootstrap")*@
     <script src="~/Scripts/jsShopping.js"></script>
     @RenderSection("scripts", required: false)
 </body>
